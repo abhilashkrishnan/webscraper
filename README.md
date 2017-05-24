@@ -54,8 +54,8 @@ This application uses SBT (SIMPLE BUILD TOOL) to build and run the application.
 
 The application can build as follows:
 
-1. Download and install [Scala] (https://www.scala-lang.org/download/)
-2. Download and install [SBT] (http://www.scala-sbt.org/download.html)
+1. Download and install [Scala](https://www.scala-lang.org/download/)
+2. Download and install [SBT](http://www.scala-sbt.org/download.html)
 3. Unzip the webscraper.zip file
 4. Navigate to project root directory i.e. webscraper
 5. Please enter ```sbt compile``` from the command line to compile the source files.
