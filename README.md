@@ -1,5 +1,4 @@
 # WEBSCRAPER
-*******************************************
 
 This is a ```SPA - Single Page Application``` design. The server components of the application are developed in ```Scala``` using ```Play framework``` and ```Jsoup``` library. The UI/User Interface is a responsive design and developed using ```HTML5, CSS3 and Bootstrap``` framework. This application uses ``Jquery`` framework for making AJAX calls to the server and populating the results in the page.
 
@@ -16,13 +15,11 @@ The application will fetch HTML document information using ```Jsoup``` library s
 	- Internal and External <mailto> links
 
 ## HEALTH CHECK OF LINKS
-*********************
 
 This application also performs health check of all the links in the HTML document whether it can be reachable from the application using
 ```JSsoup``` library. This operation is performed using ```Scala Futures``` through asynchronous calls performing many operations in parallel in an ```efficient and non-blocking``` way. A ```CountDownLatch``` is used to track the Future asynchronous operations and await for all the Future tasks to finish executing the tasks.
 
 ## JSOUP LIBRARY
-**************
 
 - Jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.
 - Jsoup can scrape and parse HTML from a URL, file, or string
@@ -32,7 +29,6 @@ This application also performs health check of all the links in the HTML documen
 - Jspup can output tidy HTML
 
 ## KNOWN ISSUES AND LIMITATIONS
-****************************
 
 The limitations of the application can be attributed to the limitations of the JSOUP library implementation.
 
@@ -44,11 +40,10 @@ The limitations of the application can be attributed to the limitations of the J
 tiff|tif|swf|bmp|php|asp|jsp``` are not supported
 
 ## IDE SUPPORT
-***********
+
 The code is written using ```IntelliJ IDEA Community Edition 2016.1.2```
 
 ## HOW TO BUILD AND RUN THE APPLICATION
-************************************
 
 This application uses SBT (SIMPLE BUILD TOOL) to build and run the application.
 
@@ -64,7 +59,6 @@ The application can build as follows:
 8. Please enter website address in http(s) protocol
 
 ## HOW TO CLEAN THE BUILD
-**********************
 
 Pleas enter ```sbt clean``` from the command line from the root directory of the project.
 
