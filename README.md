@@ -15,7 +15,7 @@ The application will fetch HTML document information using ```Jsoup``` library s
 	- Internal and External <script> links
 	- Internal and External <mailto> links
 
-##HEALTH CHECK OF LINKS
+## HEALTH CHECK OF LINKS
 *********************
 
 This application also performs health check of all the links in the HTML document whether it can be reachable from the application using
