@@ -1,4 +1,4 @@
-SCOUT24 PROGRAMMING CHALLENGE - WEBSCRAPER
+PROGRAMMING CHALLENGE - WEBSCRAPER
 *******************************************
 
 This is a SPA - Single Page Application design. The server components of the application are developed in Scala using Play framework and
