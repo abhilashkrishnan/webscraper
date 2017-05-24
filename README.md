@@ -3,11 +3,11 @@
 This is a ```SPA - Single Page Application``` design. The server components of the application are developed in ```Scala``` using ```Play framework``` and ```Jsoup``` library. The UI/User Interface is a responsive design and developed using ```HTML5, CSS3 and Bootstrap``` framework. This application uses ``Jquery`` framework for making AJAX calls to the server and populating the results in the page.
 
 The application will fetch HTML document information using ```Jsoup``` library such as:
-1. Title
-2. HTML Version
-3. Heading counts of h1, h2, h3, h4, h5, h6 tags
-3. Check if Login Page is accessed
-4. Hyperlink counts
+1.  Title
+2.  HTML Version
+3.  Heading counts of h1, h2, h3, h4, h5, h6 tags
+3.  Check if Login Page is accessed
+4.  Hyperlink counts
 	- Internal and External <a> links
 	- Internal and External <img> links
 	- Internal and External <link> links
@@ -49,14 +49,14 @@ This application uses SBT (SIMPLE BUILD TOOL) to build and run the application.
 
 The application can build as follows:
 
-1. Download and install [Scala](https://www.scala-lang.org/download/)
-2. Download and install [SBT](http://www.scala-sbt.org/download.html)
-3. Unzip the webscraper.zip file
-4. Navigate to project root directory i.e. webscraper
-5. Please enter ```sbt compile``` from the command line to compile the source files.
-6. Please enter ```sbt run``` from the command line to start and run the Play Server on port 9000
-7. Open a browser and enter http://localhost:9000
-8. Please enter website address in http(s) protocol
+1.  Download and install [Scala](https://www.scala-lang.org/download/)
+2.  Download and install [SBT](http://www.scala-sbt.org/download.html)
+3.  Unzip the webscraper.zip file
+4.  Navigate to project root directory i.e. webscraper
+5.  Please enter ```sbt compile``` from the command line to compile the source files.
+6.  Please enter ```sbt run``` from the command line to start and run the Play Server on port 9000
+7.  Open a browser and enter http://localhost:9000
+8.  Please enter website address in http(s) protocol
 
 ## HOW TO CLEAN THE BUILD
 
