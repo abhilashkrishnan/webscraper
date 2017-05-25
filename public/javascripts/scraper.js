@@ -189,14 +189,14 @@ $(document).ready(function() {
 
 
         function scrollto(id) {
-        	var etop = $('#' + id).offset().top;
-        	$(window).scrollTop(etop);
+            var etop = $('#' + id).offset().top;
+            $(window).scrollTop(etop);
         }
 
         function ascrollto(id) {
-        	var etop = $('#' + id).offset().top;
-        	$('html, body').animate({
-        	  scrollTop: etop
-        	}, 1000);
+            var etop = $('#' + id).offset().top;
+            $('html, body').animate({
+              scrollTop: etop
+            }, 1000);
         }
 });

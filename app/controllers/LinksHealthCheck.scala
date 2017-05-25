@@ -112,16 +112,7 @@ class LinksHealthCheck @Inject() extends Controller {
     unSupported
   }
 
-  def unsupportedFileExtensions(url: String): Option[Boolean] = {
-    var unSupported: Option[Boolean] = Some(false)
-    val filePattern = "([^\\s]+(\\.(?i)(pdf|doc|docx|ppt|pptx|xls|xlsx|epub|odt|odp|ods|swx|ps|rtf|txt|djvu|djv|zip|gzip|tar|gz|rar|bz2|z|tiff|tif|swf|bmp|php|asp|jsp))$)"
 
-    if(url.matches(filePattern)) {
-      unSupported = Some(true)
-    }
-
-    unSupported
-  }
   /**
     * Generate LinkHealth object
     *
@@ -172,10 +163,8 @@ class LinksHealthCheck @Inject() extends Controller {
       println("->")
 
       try {
-        if (unsupportedFileExtensions(linkAttr).get) {
-          linkHealth = Some(LinkHealth(linkAttr, 415 , "DOCUMENT FORMAT IS NOT SUPPORTED", false))
-        }
-        else if (isHttpDirectLink(linkAttr).get) {
+
+        if (isHttpDirectLink(linkAttr).get) {
           linkHealth = getLinkHealth(linkAttr)
         } else if (unsupportedProtocol(linkAttr).get) {
           linkHealth = Some(LinkHealth(linkAttr, 415 , "PROTOCOL IS NOT SUPPORTED", false))
