@@ -47,7 +47,7 @@ The code is written using ```IntelliJ IDEA Community Edition 2016.1.2```
 
 This application uses SBT (SIMPLE BUILD TOOL) to build and run the application.
 
-The application can build as follows:
+The application can be build as follows:
 
 1.  Download and install [Scala](https://www.scala-lang.org/download/)
 2.  Download and install [SBT](http://www.scala-sbt.org/download.html)
