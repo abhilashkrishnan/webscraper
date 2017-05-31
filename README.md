@@ -28,17 +28,6 @@ This application also performs health check of all the links in the HTML documen
 - Jsoup can clean user-submitted content against a safe white-list, to prevent XSS attacks
 - Jspup can output tidy HTML
 
-## KNOWN ISSUES AND LIMITATIONS
-
-The limitations of the application can be attributed to the limitations of the JSOUP library implementation.
-
-- Too many HTTP Redirects (302) may be failed in some cases
-- GIF images are not reachable in most of the cases
-- PNG images are not reachable in some cases
-- Download links such as zip or tar or gzip files cannot be reached due to unsupported mime type in Jsoup library.
-- Documents and file formats such as ```pdf|doc|docx|ppt|pptx|xls|xlsx|epub|odt|odp|ods|swx|ps|rtf|txt|djvu|djv|zip|gzip|tar|gz|rar|bz2|z|
-tiff|tif|swf|bmp|php|asp|jsp``` are not supported
-
 ## IDE SUPPORT
 
 The code is written using ```IntelliJ IDEA Community Edition 2016.1.2```
