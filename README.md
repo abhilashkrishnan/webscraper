@@ -5,14 +5,14 @@ This is a ```SPA - Single Page Application``` design. The server components of t
 The application will fetch HTML document information using ```Jsoup``` library such as:
 1.  Title
 2.  HTML Version
-3.  Heading counts of h1, h2, h3, h4, h5, h6 tags
+3.  Heading counts of ```h1, h2, h3, h4, h5, h6``` tags
 3.  Check if Login Page is accessed
 4.  Hyperlink counts
-	- Internal and External anchor tags
-	- Internal and External image tags
-	- Internal and External link tags
-	- Internal and External script tags
-	- Internal and External mailto tags
+	- Internal and External ```anchor``` tags
+	- Internal and External ```image``` tags
+	- Internal and External ```link``` tags
+	- Internal and External ```script``` tags
+	- Internal and External ```mailto``` tags
 
 ## HEALTH CHECK OF LINKS
 
