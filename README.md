@@ -8,16 +8,16 @@ The application will fetch HTML document information using ```Jsoup``` library s
 3.  Heading counts of h1, h2, h3, h4, h5, h6 tags
 3.  Check if Login Page is accessed
 4.  Hyperlink counts
-	- Internal and External <a> links
-	- Internal and External <img> links
-	- Internal and External <link> links
-	- Internal and External <script> links
-	- Internal and External <mailto> links
+	- Internal and External anchor tags
+	- Internal and External image tags
+	- Internal and External link tags
+	- Internal and External script tags
+	- Internal and External mailto tags
 
 ## HEALTH CHECK OF LINKS
 
 This application also performs health check of all the links in the HTML document whether it can be reachable from the application using
-```JSsoup``` library. This operation is performed using ```Scala Futures``` through asynchronous calls performing many operations in parallel in an ```efficient and non-blocking``` way. A ```CountDownLatch``` is used to track the Future asynchronous operations and await for all the Future tasks to finish executing the tasks.
+```Jsoup``` library. This operation is performed using ```Scala Futures``` through asynchronous calls performing many operations in parallel in an ```efficient and non-blocking``` way. A ```CountDownLatch``` is used to track the Future asynchronous operations and await for all the Future tasks to finish executing the tasks.
 
 ## JSOUP LIBRARY
 
