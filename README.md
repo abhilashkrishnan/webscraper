@@ -24,7 +24,7 @@ This application also performs health check of all the links in the HTML documen
 - Jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.
 - Jsoup can scrape and parse HTML from a URL, file, or string
 - Jsoup can find and extract data, using DOM traversal or CSS selectors
-- Jsoup cab manipulate the HTML elements, attributes, and text
+- Jsoup can manipulate the HTML elements, attributes, and text
 - Jsoup can clean user-submitted content against a safe white-list, to prevent XSS attacks
 - Jspup can output tidy HTML
 
